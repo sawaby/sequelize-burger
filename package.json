@@ -1,21 +1,31 @@
 {
-  "name": "node_what_todo",
+  "name": "burger-sequelize",
   "version": "1.0.0",
   "description": "-Node \r -Express \r -MySQL \r -Handlebars \r -Jquery",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "maria",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.3",
     "express-handlebars": "^2.0.1",
     "method-override": "^2.3.5",
-    "mysql": "^2.10.2"
+    "mysql": "^2.13.0",
+    "sequelize": "^4.2.1"
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawaby/sequelize-burger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sawaby/sequelize-burger/issues"
+  },
+  "homepage": "https://github.com/sawaby/sequelize-burger#readme"
 }
